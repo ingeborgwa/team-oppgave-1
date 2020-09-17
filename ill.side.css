@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family:'Poppins', sans-serif;
+}
+
+nav{ 
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    width: 100%;
+    background-color:rgb(0, 51, 51);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+
+}
+
+nav a{
+    font-weight: lighter;
+    float: left;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    font-size: 17px;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav a:hover{
+    color: rgb(255, 102, 51);
+}
+
+.nav-midt{
+    margin-top: 20px;
+}
+
+.bli-medlem{
+    margin-top: 20px;
+    background-color: rgb(255, 102, 51);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1{
+    width: 600px;
+    font-size: 50px;
+    color: rgb(0, 51, 51);
+    margin-left: 70px;
+}
+
+.box{
+    margin: 100px;
+}
+
+
+
+
+
+
+
+
+/* .logo-footer{
+    height: 100px;
+    padding-top: 40px;
+    padding-right: 20px;
+}
+
+footer{
+    background-color: rgb(0, 51, 51);
+    color: whitesmoke;
+}
+
+.footer-container{
+    display: grid;
+    align-items: top;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px;
+    padding-left: 100px;
+}
+
+.footer-li{
+    background-color: rgb(0, 51, 51);
+    display: grid;
+    padding-bottom:10px;
+}
+
+.footer-li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footer-li a:hover{
+    color:rgb(255, 102, 51);
+} */

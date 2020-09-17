@@ -4,28 +4,164 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Venstre</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header>
-        <nav class="topnav">
-            <a href="#home">
-                <img class="logo" src="./img/logo-negativ.png" alt="Venstre logo">
-            </a>
-            <a href="#politikken">Politikken</a>
-            <a href="#partiet">Partiet</a>
-            <a href="blimedledm">Bli medlem</a>
-        </nav> 
-    </header>
-
-    <main>
-        <section>
-            <div class="frontpage">
-                <h1>Venstre</h1>
-                <h2>På lag med fremtiden</h2>
+    <header class="frontpage-img">
+        <section class="header-container" >
+            <div>
+                <img class="logo-header" src="./img/logo-gronn.png" alt="">
+            </div>
+            <div>
+                <h1 class="header"> På lag med framtida<span style="color:rgb(255, 102, 51)" >.</span></h1>
             </div>
         </section>
+    </header>
+    <nav>
+        <div>
+            <a href="./index.html">
+            <img class="logo" src="./img/logo-negativ.png" alt="Venstre logo">
+            </a>
+        </div> 
+
+        <div class="nav-midt" >
+            <a href="./politikken.html">Vår politikk</a>
+            <a href="./om-venstre.html">Om Venstre</a>
+            <a href="./ill-side.html">Venstre der du bor</a>
+        </div> 
+
+        <div>
+            <a class="bli-medlem" href="./bli-medlem.html">Bli medlem</a>
+        </div>
+    </nav> 
+    <main> 
+        <section>
+            <h1>Våre hjertesaker<span style="color:rgb(255, 102, 51)" >.</span></h1>
+        </section>
+
+        <section class="container" >
+            <article class="grid-container" > 
+                <img class="icon" src="./svg/Skole-blyant.svg" alt="">
+                    <h3>Skole</h3>
+                    <p>
+                        <strong>Sats på skolen.</strong> 
+                        Alle barn fortjener en god skole som gir dem mulighet til å velge sin egen framtid.
+                    </p>
+            </article>
+            <article class="grid-container">
+                <img class="icon" src="./svg/Miljøikon-natur-blad.svg" alt="">
+                <h3>Natur og miljø</h3>
+                <p>
+                    <strong>Ta var på naturen.</strong>
+                    Vi vil gjøre det enklere og mer lønnsomt å leve miljøvennelig.
+                </p>
+            </article>
+            <article class="grid-container">
+                <img class="icon" src="./svg/haandtrykk.svg" alt="">
+                <h3>Arbeid og velferd</h3>
+                <p>
+                    <strong>Flere nye jobber.</strong>
+                    Det må bli lettere å skape arbeidsplasser der du bor. De som våger å sate skal ha like rettigheter som andre arbeidstakere.
+                </p>
+            </article>
+            <article class="grid-container">
+                <img class="icon" src="./svg/Oppvekst.svg" alt="">
+                <h3>På lag med framtida</h3>
+                <p>
+                    <strong>Vi tror vi kan skape gode løsninger for framtida i fellesskap.</strong> 
+                    Venstre mener fremtidige generasjoner kan få det bedre enn det vi har det i dag hvis vi tar de rette valgene. Der er Venstre på lag med framtida.
+                </p>
+            </article>
+
+            <button>
+                <a class="button" href="./politikken.html">Les mer om vår politikk</a>
+            </button>
+        </section>
+
+        <section>
+            <h1>Siste nytt<span style="color:rgb(255, 102, 51)" >.</span></h1>
+        </section>
+
+         <section class="news-container">
+            <article class="news-grid-container" >
+                <img class="news-img" src="./img/nyhet1.jpg" alt="Bilde av næringsmenister Iselin Nybø.Photo">
+                <h3 class="news-title" >Regjeringen henter ut barnefamilier fra Hellas</h3>
+                <p>
+                    Regjeringen har besluttet å hente ut barnefamilier fra Hellas, sier næringsminister Iselin Nybø.
+                </p>
+                <p>
+                    – Vi iverksetter nå regjeringens beslutning om uthenting av sårbare familier med barn fra Hellas. Med tanke på den dramatiske situasjonen som nå har oppstått er det enda mer påtrengende at Norge tar sin del av ansvaret for å avhjelpe situasjonen, sier Nybø.
+                </p>
+            </article>
+            <article class="news-grid-container">
+                <img class="news-img" src="./img/nyhet2.jpg" alt="Bilde av Guri Melby. Photo">
+                <h3 class="news-title" >Et lag for framtida</h3>
+                <p>
+                    – Vår innstilling som ledertrio er Guri Melby som leder, Sveinung Rotevatn som 1. nestleder og Abid Q. Raja som 2. nestleder, sier leder av valgkomiteen Per A. Thorbjørnsen.
+                </p>
+                <p>
+                    – Dette er et lag for framtida. De er opptatt av frihet og muligheter for alle. At folk er forskjellige og like mye verdt. Det er dyktige folk som skal lose landet trygt gjennom krisen. Der vi satser på skolen. Løser klimautfordringene. Og skaper og trygger arbeidsplassene til folk.
+                </p>
+            </article>
+            <article class="news-grid-container">
+                <img class="news-img" src="./img/nyhet3.jpg" alt="Nærbildet av en som holder en mobil. Fra mobilen kommer tommel opp og hjerter. Photo">
+                <h3 class="news-title"> Vil du jobbe med kommunikasjon og sosiale medier i Venstre?</h3>
+                <p>
+                    Venstres hovedorganisasjon har en ledig stilling som kommunikasjonsrådgiver med et allsidig ansvarsområde. 
+                </p>
+                <p>    
+                    Du vil bl.a. få jobbe med internkommunikasjon, sosiale medier, analyse og grafisk produksjon.
+                </p>
+            </article>
+         </section> 
     </main>
-    <footer></footer>
+    <footer class="footer-container">
+        <div>
+            <img class="logo-footer" src="./img/logo-negativ.png" alt="">
+        </div>
+        <article>
+            <h4>Venstres hovedorganisasjon</h4>
+            <p class="footer-p">
+                Telefon: 22 40 43 50
+            </p>
+            <p class="footer-p">
+                E-post: <a class="email-link" href="mailto:venstre@venstre.no">venstre@venstre.no</a>
+            </p>
+            <p class="footer-p">
+                Adresse: Møllergata 16, 0179 Oslo
+            </p>
+            <div>  
+                <a href="https://www.facebook.com/venstre.no" target="_blank">
+                    <img class="some-icon" src="./img/icon-fb.png" alt="Facebook logo. Icon."> 
+                </a>
+                <a href="https://www.instagram.com/venstre.no/?hl=en" target="_blank">
+                    <img  class="some-icon" src="./img/icon-ig.png" alt="Instagram logo. Icon.">
+                </a>
+                <a href="https://twitter.com/venstre?lang=en" target="_blank">
+                    <img  class="some-icon" src="./img/icon-twitter.png" alt="Twitter logo. Icon.">
+                </a>
+            </div>
+        </article>
+        <article>
+            <ul>
+                <li class="footer-li">
+                    <a href="./om-venstre.html">Om Venstre</a>
+                </li>
+                <li class="footer-li">
+                    <a href="./politikken.html">Vår politikk</a>
+                </li>
+                <li class="footer-li">
+                    <a href="#">Sideorganisasjoner</a>
+                </li>
+                <li class="footer-li">
+                    <a href="#">Personvernerklæring</a>
+                </li>
+                <li class="footer-li">
+                    <a href="#">In English</a>
+                </li>
+            </ul>
+        </article>
+    </footer>
 </body>
 </html>
